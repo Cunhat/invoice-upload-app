@@ -25,7 +25,6 @@ export interface ButtonProps
   extends PressableProps,
     VariantProps<typeof buttonVariants> {
   className?: string;
-  onPress?: () => void;
   text: string;
 }
 
